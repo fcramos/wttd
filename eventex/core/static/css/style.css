@@ -1,3 +1,15 @@
+body {
+  background-color: #ccc;
+}
+
 .why-foundation {
   text-align: center;
+}
+
+a img {
+  margin: 0 10px;
+}
+
+#django {
+  float: right;
 }
