@@ -3,6 +3,7 @@
   <h3>Formulário de inscrição</h3>
   <form action="." method="POST">
     {% csrf_token%}
+    {{ form.non_fields_errors }}
     <label for="{{form.name.id_for_label}}">{{ form.name.label }}</label>
     {{ form.name }}
     {{ form.name.errors }}
