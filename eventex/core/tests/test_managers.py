@@ -52,3 +52,4 @@ class PeriodManager(TestCase):
             Talk.objects.at_afternoon(), ['Afternoon Talk'],
             lambda t: t.title
         )
+        # TODO: slide 174

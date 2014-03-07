@@ -22,3 +22,4 @@ def talk_list(request):
     }
     return render(request, 'core/talk_list.html', context)
 
+# TODO: slide 174
